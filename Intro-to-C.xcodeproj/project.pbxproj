@@ -11,11 +11,12 @@
 		4476BB4D226E65BE00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB4A226E65BE00A5697E /* Makefile */; };
 		4476BB5E226E668B00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB5A226E668A00A5697E /* Makefile */; };
 		4476BB5F226E668B00A5697E /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB5B226E668B00A5697E /* strings.c */; };
-		4476BB9C226FABD500A5697E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB98226FABD500A5697E /* main.c */; };
 		4476BB9D226FABD500A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB99226FABD500A5697E /* Makefile */; };
 		4476BB9E226FABD500A5697E /* pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB9A226FABD500A5697E /* pointers.c */; };
 		4476BBB0226FBCBB00A5697E /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBAD226FBCBA00A5697E /* malloc.c */; };
 		4476BBB1226FBCBB00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBAF226FBCBB00A5697E /* Makefile */; };
+		4476BBC3226FCD4500A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBBE226FCD4400A5697E /* Makefile */; };
+		4476BBC4226FCD4500A5697E /* structs.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBC2226FCD4400A5697E /* structs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4476BBB4226FCD3100A5697E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +84,6 @@
 		4476BB92226FABD400A5697E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../../.Trash/pointers/README.md; sourceTree = "<group>"; };
 		4476BB93226FABD400A5697E /* pointers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pointers.xcodeproj; path = ../../../../../.Trash/pointers/pointers.xcodeproj; sourceTree = "<group>"; };
 		4476BB97226FABD500A5697E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tests; path = ../../../../../.Trash/pointers/tests; sourceTree = "<group>"; };
-		4476BB98226FABD500A5697E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../../../.Trash/pointers/main.c; sourceTree = "<group>"; };
 		4476BB99226FABD500A5697E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../../.Trash/pointers/Makefile; sourceTree = "<group>"; };
 		4476BB9A226FABD500A5697E /* pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pointers.c; path = ../../../../../.Trash/pointers/pointers.c; sourceTree = "<group>"; };
 		4476BB9B226FABD500A5697E /* pointers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pointers.h; path = ../../../../../.Trash/pointers/pointers.h; sourceTree = "<group>"; };
@@ -85,6 +94,13 @@
 		4476BBAD226FBCBA00A5697E /* malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
 		4476BBAE226FBCBB00A5697E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
 		4476BBAF226FBCBB00A5697E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4476BBB6226FCD3100A5697E /* structs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = structs; sourceTree = BUILT_PRODUCTS_DIR; };
+		4476BBBD226FCD4400A5697E /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+		4476BBBE226FCD4400A5697E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4476BBBF226FCD4400A5697E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4476BBC0226FCD4400A5697E /* lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		4476BBC1226FCD4400A5697E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		4476BBC2226FCD4400A5697E /* structs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = structs.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +132,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4476BBB3226FCD3100A5697E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -126,6 +149,7 @@
 				4476BB53226E667E00A5697E /* strings */,
 				4476BB7C226FAB4F00A5697E /* pointers */,
 				4476BBA4226FBC8600A5697E /* malloc */,
+				4476BBB7226FCD3100A5697E /* structs */,
 				4476BB40226E65A500A5697E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +161,7 @@
 				4476BB52226E667E00A5697E /* strings */,
 				4476BB7B226FAB4E00A5697E /* pointers */,
 				4476BBA3226FBC8600A5697E /* malloc */,
+				4476BBB6226FCD3100A5697E /* structs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +193,6 @@
 		4476BB7C226FAB4F00A5697E /* pointers */ = {
 			isa = PBXGroup;
 			children = (
-				4476BB98226FABD500A5697E /* main.c */,
 				4476BB99226FABD500A5697E /* Makefile */,
 				4476BB9A226FABD500A5697E /* pointers.c */,
 				4476BB9B226FABD500A5697E /* pointers.h */,
@@ -197,6 +221,19 @@
 				4476BBAE226FBCBB00A5697E /* tests */,
 			);
 			path = malloc;
+			sourceTree = "<group>";
+		};
+		4476BBB7226FCD3100A5697E /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				4476BBC0226FCD4400A5697E /* lib.h */,
+				4476BBBE226FCD4400A5697E /* Makefile */,
+				4476BBBF226FCD4400A5697E /* README.md */,
+				4476BBC2226FCD4400A5697E /* structs.c */,
+				4476BBBD226FCD4400A5697E /* structs.h */,
+				4476BBC1226FCD4400A5697E /* tests */,
+			);
+			path = structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +307,23 @@
 			productReference = 4476BBA3226FBC8600A5697E /* malloc */;
 			productType = "com.apple.product-type.tool";
 		};
+		4476BBB5226FCD3100A5697E /* structs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4476BBBA226FCD3100A5697E /* Build configuration list for PBXNativeTarget "structs" */;
+			buildPhases = (
+				4476BBB2226FCD3100A5697E /* Sources */,
+				4476BBB3226FCD3100A5697E /* Frameworks */,
+				4476BBB4226FCD3100A5697E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = structs;
+			productName = structs;
+			productReference = 4476BBB6226FCD3100A5697E /* structs */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,6 +343,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					4476BBA2226FBC8600A5697E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4476BBB5226FCD3100A5697E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -315,6 +372,7 @@
 				4476BB51226E667E00A5697E /* strings */,
 				4476BB7A226FAB4E00A5697E /* pointers */,
 				4476BBA2226FBC8600A5697E /* malloc */,
+				4476BBB5226FCD3100A5697E /* structs */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +401,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4476BB9D226FABD500A5697E /* Makefile in Sources */,
-				4476BB9C226FABD500A5697E /* main.c in Sources */,
 				4476BB9E226FABD500A5697E /* pointers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +411,15 @@
 			files = (
 				4476BBB1226FBCBB00A5697E /* Makefile in Sources */,
 				4476BBB0226FBCBB00A5697E /* malloc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4476BBB2226FCD3100A5697E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4476BBC3226FCD4500A5697E /* Makefile in Sources */,
+				4476BBC4226FCD4500A5697E /* structs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +627,30 @@
 			};
 			name = Release;
 		};
+		4476BBBB226FCD3100A5697E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4476BBBC226FCD3100A5697E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,6 +695,15 @@
 			buildConfigurations = (
 				4476BBA8226FBC8600A5697E /* Debug */,
 				4476BBA9226FBC8600A5697E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4476BBBA226FCD3100A5697E /* Build configuration list for PBXNativeTarget "structs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4476BBBB226FCD3100A5697E /* Debug */,
+				4476BBBC226FCD3100A5697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
