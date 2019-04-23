@@ -11,6 +11,11 @@
 		4476BB4D226E65BE00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB4A226E65BE00A5697E /* Makefile */; };
 		4476BB5E226E668B00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB5A226E668A00A5697E /* Makefile */; };
 		4476BB5F226E668B00A5697E /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB5B226E668B00A5697E /* strings.c */; };
+		4476BB9C226FABD500A5697E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB98226FABD500A5697E /* main.c */; };
+		4476BB9D226FABD500A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB99226FABD500A5697E /* Makefile */; };
+		4476BB9E226FABD500A5697E /* pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BB9A226FABD500A5697E /* pointers.c */; };
+		4476BBB0226FBCBB00A5697E /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBAD226FBCBA00A5697E /* malloc.c */; };
+		4476BBB1226FBCBB00A5697E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4476BBAF226FBCBB00A5697E /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +29,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4476BB50226E667E00A5697E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4476BB79226FAB4E00A5697E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4476BBA1226FBC8600A5697E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -47,6 +70,21 @@
 		4476BB5B226E668B00A5697E /* strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strings.c; sourceTree = "<group>"; };
 		4476BB5C226E668B00A5697E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4476BB5D226E668B00A5697E /* strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
+		4476BB7B226FAB4E00A5697E /* pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointers; sourceTree = BUILT_PRODUCTS_DIR; };
+		4476BB92226FABD400A5697E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../../.Trash/pointers/README.md; sourceTree = "<group>"; };
+		4476BB93226FABD400A5697E /* pointers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pointers.xcodeproj; path = ../../../../../.Trash/pointers/pointers.xcodeproj; sourceTree = "<group>"; };
+		4476BB97226FABD500A5697E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tests; path = ../../../../../.Trash/pointers/tests; sourceTree = "<group>"; };
+		4476BB98226FABD500A5697E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../../../.Trash/pointers/main.c; sourceTree = "<group>"; };
+		4476BB99226FABD500A5697E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../../.Trash/pointers/Makefile; sourceTree = "<group>"; };
+		4476BB9A226FABD500A5697E /* pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pointers.c; path = ../../../../../.Trash/pointers/pointers.c; sourceTree = "<group>"; };
+		4476BB9B226FABD500A5697E /* pointers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pointers.h; path = ../../../../../.Trash/pointers/pointers.h; sourceTree = "<group>"; };
+		4476BBA3226FBC8600A5697E /* malloc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = malloc; sourceTree = BUILT_PRODUCTS_DIR; };
+		4476BBAA226FBCBA00A5697E /* malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc.h; sourceTree = "<group>"; };
+		4476BBAB226FBCBA00A5697E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4476BBAC226FBCBA00A5697E /* lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		4476BBAD226FBCBA00A5697E /* malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		4476BBAE226FBCBB00A5697E /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		4476BBAF226FBCBB00A5697E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +102,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4476BB78226FAB4E00A5697E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4476BBA0226FBC8600A5697E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +124,8 @@
 			children = (
 				4476BB41226E65A500A5697E /* fizzbuzz */,
 				4476BB53226E667E00A5697E /* strings */,
+				4476BB7C226FAB4F00A5697E /* pointers */,
+				4476BBA4226FBC8600A5697E /* malloc */,
 				4476BB40226E65A500A5697E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +135,8 @@
 			children = (
 				4476BB3F226E65A500A5697E /* fizzbuzz */,
 				4476BB52226E667E00A5697E /* strings */,
+				4476BB7B226FAB4E00A5697E /* pointers */,
+				4476BBA3226FBC8600A5697E /* malloc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +163,40 @@
 				4476BB59226E668A00A5697E /* tests */,
 			);
 			path = strings;
+			sourceTree = "<group>";
+		};
+		4476BB7C226FAB4F00A5697E /* pointers */ = {
+			isa = PBXGroup;
+			children = (
+				4476BB98226FABD500A5697E /* main.c */,
+				4476BB99226FABD500A5697E /* Makefile */,
+				4476BB9A226FABD500A5697E /* pointers.c */,
+				4476BB9B226FABD500A5697E /* pointers.h */,
+				4476BB93226FABD400A5697E /* pointers.xcodeproj */,
+				4476BB92226FABD400A5697E /* README.md */,
+				4476BB97226FABD500A5697E /* tests */,
+			);
+			path = pointers;
+			sourceTree = "<group>";
+		};
+		4476BB94226FABD400A5697E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4476BBA4226FBC8600A5697E /* malloc */ = {
+			isa = PBXGroup;
+			children = (
+				4476BBAC226FBCBA00A5697E /* lib.h */,
+				4476BBAF226FBCBB00A5697E /* Makefile */,
+				4476BBAD226FBCBA00A5697E /* malloc.c */,
+				4476BBAA226FBCBA00A5697E /* malloc.h */,
+				4476BBAB226FBCBA00A5697E /* README.md */,
+				4476BBAE226FBCBB00A5697E /* tests */,
+			);
+			path = malloc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +236,40 @@
 			productReference = 4476BB52226E667E00A5697E /* strings */;
 			productType = "com.apple.product-type.tool";
 		};
+		4476BB7A226FAB4E00A5697E /* pointers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4476BB7F226FAB4F00A5697E /* Build configuration list for PBXNativeTarget "pointers" */;
+			buildPhases = (
+				4476BB77226FAB4E00A5697E /* Sources */,
+				4476BB78226FAB4E00A5697E /* Frameworks */,
+				4476BB79226FAB4E00A5697E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pointers;
+			productName = pointers;
+			productReference = 4476BB7B226FAB4E00A5697E /* pointers */;
+			productType = "com.apple.product-type.tool";
+		};
+		4476BBA2226FBC8600A5697E /* malloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4476BBA7226FBC8600A5697E /* Build configuration list for PBXNativeTarget "malloc" */;
+			buildPhases = (
+				4476BB9F226FBC8600A5697E /* Sources */,
+				4476BBA0226FBC8600A5697E /* Frameworks */,
+				4476BBA1226FBC8600A5697E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = malloc;
+			productName = malloc;
+			productReference = 4476BBA3226FBC8600A5697E /* malloc */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +285,12 @@
 					4476BB51226E667E00A5697E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					4476BB7A226FAB4E00A5697E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4476BBA2226FBC8600A5697E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 4476BB34226E655F00A5697E /* Build configuration list for PBXProject "Intro-to-C" */;
@@ -173,10 +303,18 @@
 			mainGroup = 4476BB30226E655F00A5697E;
 			productRefGroup = 4476BB40226E65A500A5697E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4476BB94226FABD400A5697E /* Products */;
+					ProjectRef = 4476BB93226FABD400A5697E /* pointers.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4476BB3E226E65A500A5697E /* fizzbuzz */,
 				4476BB51226E667E00A5697E /* strings */,
+				4476BB7A226FAB4E00A5697E /* pointers */,
+				4476BBA2226FBC8600A5697E /* malloc */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +335,25 @@
 			files = (
 				4476BB5E226E668B00A5697E /* Makefile in Sources */,
 				4476BB5F226E668B00A5697E /* strings.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4476BB77226FAB4E00A5697E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4476BB9D226FABD500A5697E /* Makefile in Sources */,
+				4476BB9C226FABD500A5697E /* main.c in Sources */,
+				4476BB9E226FABD500A5697E /* pointers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4476BB9F226FBC8600A5697E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4476BBB1226FBCBB00A5697E /* Makefile in Sources */,
+				4476BBB0226FBCBB00A5697E /* malloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +513,54 @@
 			};
 			name = Release;
 		};
+		4476BB80226FAB4F00A5697E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4476BB81226FAB4F00A5697E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4476BBA8226FBC8600A5697E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4476BBA9226FBC8600A5697E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH6AR4LY3J;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -382,6 +587,24 @@
 			buildConfigurations = (
 				4476BB57226E667E00A5697E /* Debug */,
 				4476BB58226E667E00A5697E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4476BB7F226FAB4F00A5697E /* Build configuration list for PBXNativeTarget "pointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4476BB80226FAB4F00A5697E /* Debug */,
+				4476BB81226FAB4F00A5697E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4476BBA7226FBC8600A5697E /* Build configuration list for PBXNativeTarget "malloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4476BBA8226FBC8600A5697E /* Debug */,
+				4476BBA9226FBC8600A5697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
